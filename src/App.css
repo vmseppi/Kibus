@@ -46,6 +46,7 @@ google fonts
   width: 650px;
   height: 84px;
   color: #707070;
+  margin-top: 70px;
 }
 .reserva{
   width: 184px;
@@ -153,9 +154,70 @@ google fonts
   color: #767676;
   text-align: center;
 }
-.carousel-slide{
+.section1{
   width: 800px;
-  height: 533px;
+  height: 533.4px;
 }
-
-
+.dogeating , .dog2, .dog3, .dog4{
+  width: 800px;
+  height: 533.4px;
+  border-radius: 20px;
+}
+.parrafosection1{
+  font-family: 'Roboto', sans-serif;
+  width: 459px;
+  height: 168px;
+  text-align: left;
+  font-size: 16px;
+}
+.parrafoexplicacion{
+     position: relative;
+     background: aqua;
+     margin-left: auto;
+}
+.contenedorbtnsection1{
+  position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EE7333;
+  width: 100%;
+  padding: 5px;
+}
+.tituloexplicacion{
+  font-size: 36px;
+  width: 425px;
+  height: 87px;
+}
+.contenedorcarousel{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: auto;
+  background-repeat: no-repeat;
+  background-image: url('../src/imagenes/eclipse2.jpg');
+}
+.programaskibus{
+  width: 350px;
+  height: 552px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.section2{
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  flex-direction: row;
+}
+.maquinaprograma{
+  width: 694.06px;
+  height: 650px;
+}

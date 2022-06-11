@@ -1,14 +1,17 @@
 import React from "react";
 import { Carousel } from "react-bootstrap"
 import dogeating from "../imagenes/dogeating.jpg"
+import dog2 from "../imagenes/dog2.jpg"
+import dog3 from "../imagenes/dog3.jpg"
+import dog4 from "../imagenes/dog4.jpg"
 
 export default function BoostrapCarousel(){
     return(
         <>
-              <Carousel>
+              <Carousel className="carouseldesktop">
               <Carousel.Item>
                 <img
-                  className="d-block w-100"
+                  className="dogeating"
                   src={dogeating}
                   alt="First slide"
                 />
@@ -19,8 +22,8 @@ export default function BoostrapCarousel(){
               </Carousel.Item>
                 <Carousel.Item>
                   <img
-                    className="d-block w-100"
-                    src="https://images.pexels.com/photos/5706418/pexels-photo-5706418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    className="dog2"
+                    src={dog2}
                     alt="Second slide"
                   />
                   <Carousel.Caption>
@@ -30,11 +33,10 @@ export default function BoostrapCarousel(){
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
-                    className="d-block w-100"
-                    src="https://images.pexels.com/photos/688961/pexels-photo-688961.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                    alt="Third slide"
+                    className="dog3"
+                    src={dog3}      
+                     alt="Third slide"
                   />
-
                   <Carousel.Caption>
                     <h3>Third slide label</h3>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -42,8 +44,8 @@ export default function BoostrapCarousel(){
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
-                    className="d-block w-100"
-                    src="https://images.pexels.com/photos/879788/pexels-photo-879788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    className="dog4"
+                    src={dog4}
                     alt="Third slide"
                   />
                   <Carousel.Caption>
@@ -52,6 +54,7 @@ export default function BoostrapCarousel(){
                   </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+            
         </>
     )
 };
