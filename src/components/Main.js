@@ -5,6 +5,7 @@ import receta2 from "../imagenes/pizzas/receta2.jpg"
 import receta3 from "../imagenes/pizzas/receta3.jpg"
 import tureceta from "../imagenes/pizzas/tureceta.jpg"
 import flechareceta from "../imagenes/flechareceta.jpg"
+import BoostrapCarousel  from "./BoostrapCarousel";
 
 const Main =()=>{
     return(
@@ -40,10 +41,9 @@ const Main =()=>{
             <p className="recetareserva">Ayudanos a decidir nuestra nueva receta</p>
           </div>
           </div>
-
         </div>
         <section className='section1'>
-          <div>perro</div>
+          <BoostrapCarousel/>
           <div>
             <title>Mejor para ellos,mas facil y comodo para ti</title>
             <p className='parrafosection1'></p>

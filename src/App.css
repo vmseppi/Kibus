@@ -153,5 +153,9 @@ google fonts
   color: #767676;
   text-align: center;
 }
+.carousel-slide{
+  width: 800px;
+  height: 533px;
+}
 
 
