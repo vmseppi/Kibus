@@ -11,8 +11,7 @@ google fonts
 .App{
   padding: 68px;
   background-color: greenyellow;
-  width: 1440px;
-  height: 3260px;
+  height: 4405px;
 }
 .contenedorheader{
   background-color: brown;
@@ -60,11 +59,10 @@ google fonts
 }
 .contenedorbotones{
   position: absolute;
-  width: 38%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 43%;
+    width: 41%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 33%;;
 }
 .more{
   width: 244px;
@@ -80,11 +78,10 @@ google fonts
   border: none;
 }
 .contenedorimg{
-    width: 754px;
-    height: 502.81px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 754px;
+  height: 502.81px;
+  display: flex;
+  justify-content: center;
 }
 .slider{
     display: flex;

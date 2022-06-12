@@ -17,6 +17,9 @@ import MaquinaPrograma from "../imagenes/programas/MaquinaPrograma.jpg"
 
 
 const Main =()=>{
+  const scrollearPag = (e)=>{
+    window.scrollTo({ top: 2500, behavior: 'smooth' })
+  }
     return(
         <main className="recetascontenedor">    
         <div className='slider'>
@@ -61,7 +64,7 @@ const Main =()=>{
             Con Kibus, nunca tendrás que preocuparte de cómo ofrecer una dieta sana y natural a tu perro de forma cómoda y rápida. Nuestro dispositivo cocina automáticamente la cantidad exacta en cada comida e incluso lo puedes programar a través de la app. Tu perro disfrutará comida de casera de primera calidad, con el mínimo esfuerzo.
             </p>
             <div className="contenedorbtnsection1">
-            <button className="reserva">Reserva Ahora</button>
+            <button onClick={ scrollearPag } className='reserva'>Reserva Ahora</button>
             <button className='more'>Quiero Saber Mas <img src={arrow} alt= 'flecha' className='flecha'></img></button>
           </div>
           </div>
