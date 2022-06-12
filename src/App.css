@@ -221,3 +221,88 @@ google fonts
   width: 694.06px;
   height: 650px;
 }
+.fotherconteiner{
+  background-color: black;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+}
+.contenedorpoliticasseg{
+  display: flex;
+  justify-content:space-around;
+  flex-direction: column;
+  width: 380px;
+  margin-left: 85px;
+}
+.imagenkibusfoother{
+  width: 44px;
+  height: 38px;
+}
+.kibusfoot{
+  font-weight: bold;
+  height: 28px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  color: #ffffff;
+
+}
+.footherpoliticas{
+  color: #ffffff;
+}
+.contenedorfootherlogo{
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  width: 380px;
+  margin-left: 22px;
+}
+.footherparrafo{
+  color: #ffffff;
+  font-family: 'Montserrat',;
+  font-size: 16px;
+  font-family: 'Montserrat';
+}
+.redsocial{
+  width: 26px;
+  height: 20px;
+}
+.contenedorredosocial{
+  display: flex;
+  justify-content: space-around;
+  width: 380px;
+  align-items: center;
+}
+.met{
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  width: 380px;
+  margin-bottom: 5px;
+}
+.metodosvarios{
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  width: 380px;
+  padding: 19px;
+}
+.metodosdepagofoother{
+  width: 186px;
+  height: 28px;
+  background-color: #EE7333;
+  color: #ffffff;
+  font-size: 22px;
+}
+.metodopago{
+  width: 58px;
+  height: 36px;
+  margin-right: 3px;
+}
+.metodos{
+  width: 300px;
+  display: flex;
+  background-color: aqua;
+  justify-content: space-between;
+}

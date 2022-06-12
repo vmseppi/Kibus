@@ -2,8 +2,16 @@ import React from "react";
 import kibus from "../imagenes/kibus.jpg"
 import ownerdog from "../imagenes/ownerdog.jpg"
 import arrow from "../imagenes/arrow.jpg"
+import { BrowserRouter , Route , Routes } from 'react-router-dom';
+import Foother  from "./Foother";
+import {Link} from "react-scroll" 
+
 
 const Header = ()=>{
+
+  const scrollearPag = (e)=>{
+    window.scrollTo({ top: 2500, behavior: 'smooth' })
+  }
     return(
         <header>
         <div className='contenedorlogo'>
@@ -18,7 +26,9 @@ const Header = ()=>{
           <img className='ownerdog' src={ownerdog} alt='ownerdog'/> 
         </div>
         <div className='contenedorbotones'>
-        <button className='reserva'>Reserva Ahora</button>
+        <Link to={<Foother/>} spy={true} smooth={true} offset={50} duration={500}>
+        <button onClick={ scrollearPag } className='reserva'>Reserva Ahora</button>
+        </Link>
         <button className='more'>Quiero Saber Mas <img src={arrow} alt= 'flecha' className='flecha'></img></button>
         </div>
         </div>
