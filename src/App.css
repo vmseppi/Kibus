@@ -23,6 +23,12 @@ google fonts
   display: flex;
   height: 502px;
 }
+.contenedorbotonesheader{
+  position: absolute;
+    display: flex;
+    width: 426px;
+    margin-top: 445px;
+}
 .logokibus{
   width: 120px;
   height: 54px;

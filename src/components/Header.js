@@ -24,7 +24,7 @@ const Header = ()=>{
         <div className='contenedorimg'>
           <img className='ownerdog' src={ownerdog} alt='ownerdog'/> 
         </div>
-        <div className='contenedorbotones'>
+        <div className='contenedorbotonesheader'>
         <Link to={<Foother/>} spy={true} smooth={true} offset={50} duration={500}>
         <button onClick={ scrollearPag } className='reserva'>Reserva Ahora</button>
         </Link>
