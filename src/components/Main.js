@@ -14,6 +14,8 @@ import Programas4 from "../imagenes/programas/Programas4.jpg"
 import Programas5 from "../imagenes/programas/Programas5.jpg"
 import Programas6 from "../imagenes/programas/Programas6.jpg"
 import MaquinaPrograma from "../imagenes/programas/MaquinaPrograma.jpg"
+import {Link} from "react-scroll" 
+import Foother  from "./Foother";
 
 
 const Main =()=>{
@@ -63,10 +65,12 @@ const Main =()=>{
             <p className='parrafosection1'>
             Con Kibus, nunca tendrás que preocuparte de cómo ofrecer una dieta sana y natural a tu perro de forma cómoda y rápida. Nuestro dispositivo cocina automáticamente la cantidad exacta en cada comida e incluso lo puedes programar a través de la app. Tu perro disfrutará comida de casera de primera calidad, con el mínimo esfuerzo.
             </p>
-            <div className="contenedorbtnsection1">
-            <button onClick={ scrollearPag } className='reserva'>Reserva Ahora</button>
-            <button className='more'>Quiero Saber Mas <img src={arrow} alt= 'flecha' className='flecha'></img></button>
-          </div>
+            <div className='contenedorbotonesdos'>
+        <Link to={<Foother/>} spy={true} smooth={true} offset={50} duration={500}>
+        <button onClick={ scrollearPag } className='reserva'>Reserva Ahora</button>
+        </Link>
+        <button className='more'>Quiero Saber Mas <img src={arrow} alt= 'flecha' className='flecha'></img></button>
+        </div>
           </div>
         </section>
         <section className='section2'>

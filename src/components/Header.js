@@ -2,7 +2,6 @@ import React from "react";
 import kibus from "../imagenes/kibus.jpg"
 import ownerdog from "../imagenes/ownerdog.jpg"
 import arrow from "../imagenes/arrow.jpg"
-import { BrowserRouter , Route , Routes } from 'react-router-dom';
 import Foother  from "./Foother";
 import {Link} from "react-scroll" 
 

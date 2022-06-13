@@ -10,12 +10,15 @@ google fonts
 
 .App{
   padding: 68px;
-  background-color: greenyellow;
   height: 4405px;
+  position: absolute;
 }
-.contenedorheader{
-  background-color: brown;
+
+.ownerdog{
+  width: 754px;
+  height: 502px;
 }
+
 .contenedorheader{
   display: flex;
   height: 502px;
@@ -32,7 +35,6 @@ google fonts
   line-height:101%
 }
 .contenedorizq{
-  background-color: blueviolet;
   width: 710px;
   height: 300px;
 }
@@ -59,10 +61,10 @@ google fonts
 }
 .contenedorbotones{
   position: absolute;
-    width: 41%;
+    width: 460px; 
     display: flex;
     justify-content: space-between;
-    margin-top: 33%;;
+    margin-top: 22%;
 }
 .more{
   width: 244px;
@@ -77,19 +79,17 @@ google fonts
   align-items: center;
   border: none;
 }
-.contenedorimg{
-  width: 754px;
-  height: 502.81px;
-  display: flex;
-  justify-content: center;
+.contenedorimg {
+  width: 375px;
+  height: 570px;
 }
 .slider{
     display: flex;
     justify-content: space-evenly;
     margin-top: 122px;
-    background: bisque;
     margin-top: 212px;
     height: 462px;
+    flex-direction: row;
 }
 .descripcionpizzas{
   height: 92px;
@@ -169,8 +169,8 @@ google fonts
 }
 .parrafoexplicacion{
      position: relative;
-     background: aqua;
      margin-left: auto;
+     margin-left: 80px;
 }
 .contenedorbtnsection1{
   position: absolute;
@@ -181,8 +181,6 @@ google fonts
 .section1{
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: #EE7333;
   width: 100%;
   padding: 5px;
 }
@@ -210,8 +208,7 @@ google fonts
 }
 .section2{
   display: flex;
-  justify-content: space-between;
-  background-color: red;
+  justify-content: space-around;
   flex-direction: row;
 }
 .maquinaprograma{
@@ -288,7 +285,6 @@ google fonts
 .metodosdepagofoother{
   width: 186px;
   height: 28px;
-  background-color: #EE7333;
   color: #ffffff;
   font-size: 22px;
 }
@@ -300,6 +296,193 @@ google fonts
 .metodos{
   width: 300px;
   display: flex;
-  background-color: aqua;
   justify-content: space-between;
 }
+@media only screen and (max-width: 375px) and (min-width: 1px) {
+
+
+  .App{
+  width: 375px;
+  padding: 68px;
+  position: absolute;
+  }
+  .contenedorheader{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1048px;
+  }
+  
+.logokibus{
+  width: 72px;
+  height: 32px;
+}
+.titulos{
+  font-family: 'Open Sans', sans-serif;
+  width: 327px;
+  height: 96px;
+  font-size: 32px;
+  line-height:101%
+}
+.contenedorizq{
+  width: 50%;
+}
+.alimentacion{
+  font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    height: 84px;
+    color: #707070;
+    margin-top: 47px;
+    max-width: 375px;
+}
+.reserva{
+  width: 228px;
+    height: 50px;
+    border-radius: 28px;
+    background-color: #EE7333;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+}
+.contenedorbotones{
+  position: absolute;
+  width: 110%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 87%;
+  flex-direction: column;
+  height: 108px;
+  align-items: center;
+}
+.contenedorbotonesdos {
+  height: 64px;
+  display: flex;
+  width: 320px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.more{
+  width: 244px;
+  height: 50px;
+  border-radius: 28px;
+  background-color: #ffff;
+  color: #EE7333;
+  font-family: 'Montserrat', sans-serif;
+  outline:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.slider{
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -153px;
+}
+.tituloexplicacion {
+  font-size: 24px;
+  width: 327px;
+  height: 64px;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+.section1{
+    display: block;
+    margin-bottom: 210px;
+    position: relative;
+    height: 600px;
+    display: inline-block;
+}
+.contenedorbtnsection1 {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 113px;
+}
+.contenedorbotonesdos{
+  margin-top: 10px;
+  height: 40px;
+  display: flex;
+  width: 320px;
+  justify-content: space-between;
+}
+.programaskibus {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.section2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.contenedorcarousel {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 292px;
+  max-width: 374px;
+  background-repeat: no-repeat;
+  background-image: url(http://localhost:3000/static/media/eclipse2.5abd84d….jpg);
+}
+.parrafoexplicacion {
+  margin-left: auto;
+  margin-top: 83px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.parrafosection1 {
+  font-family: 'Montserrat', sans-serif;
+  max-width: 375px;
+  height: 168px;
+  text-align: left;
+  font-size: 16px;
+}
+.contenedorbtnsection1 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 113px;
+}
+.maquinaprograma {
+  width: 327px;
+  height: 473px;
+}
+.fotherconteiner {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 375px;
+  height: 580px;
+}
+.contenedorpoliticasseg {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 375px;
+  margin-left: 21px;
+}
+.dogeating , .dog2, .dog3, .dog4{
+  width: 375px;
+  height: 290px;
+  border-radius: 20px;
+}
+.ownerdog{
+  max-width: 374px;
+}
+} 
